@@ -8,16 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		0A206D07202303F5001E0867 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0A206D06202303F5001E0867 /* Cartfile */; };
-		0A206D0920231143001E0867 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A206D0820231142001E0867 /* Mapbox.framework */; };
 		0A2AAF9D2011DF0500E5243F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AAF9C2011DF0500E5243F /* AppDelegate.swift */; };
-		0A2AAF9F2011DF0500E5243F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AAF9E2011DF0500E5243F /* ViewController.swift */; };
 		0A2AAFA22011DF0500E5243F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2AAFA02011DF0500E5243F /* Main.storyboard */; };
 		0A2AAFA42011DF0500E5243F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2AAFA32011DF0500E5243F /* Assets.xcassets */; };
 		0A2AAFA72011DF0500E5243F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2AAFA52011DF0500E5243F /* LaunchScreen.storyboard */; };
-		0A5DE2C42013813C00FF44BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DE2C32013813C00FF44BB /* Extensions.swift */; };
-		0A5DE2C6201381D800FF44BB /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DE2C5201381D800FF44BB /* CarModel.swift */; };
-		0A5DE2C82013838500FF44BB /* CarAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DE2C72013838500FF44BB /* CarAnnotationView.swift */; };
 		0A5DE2CA201383BC00FF44BB /* CarPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DE2C9201383BC00FF44BB /* CarPointAnnotation.swift */; };
+		6F039E792050E1D100E582FF /* libmbgl-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F039E7A2050E1D100E582FF /* libmbgl-core.a */; };
+		6F039E7B2050E1E700E582FF /* libmbgl-filesource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F039E7C2050E1E700E582FF /* libmbgl-filesource.a */; };
+		6F13412A206CDF6F00DEF564 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F134129206CDF6F00DEF564 /* LogsViewController.swift */; };
+		6F13EA62203ED4E0007A257D /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A489F202FEE62005B5EF9 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F2AA93620465C8100A194F6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AA93520465C8100A194F6 /* TestViewController.m */; };
+		6F2AA96A204680DD00A194F6 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AA969204680DD00A194F6 /* MapKitViewController.swift */; };
+		6F584F12205A3D5200000A64 /* pisavector.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F584F11205A3D5200000A64 /* pisavector.xcassets */; };
+		6F7F1FEC2062421E0028A524 /* AnnotaionPerformanceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F1FEB2062421E0028A524 /* AnnotaionPerformanceTestViewController.swift */; };
+		6F8446F82044FA5C0047A38C /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8446F62044FA5C0047A38C /* CustomAnnotationView.swift */; };
+		6F8446F92044FA5C0047A38C /* CarAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8446F72044FA5C0047A38C /* CarAnnotationView.swift */; };
+		6F8446FC2044FA930047A38C /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8446FB2044FA930047A38C /* CarModel.swift */; };
+		6F8446FF2044FACD0047A38C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8446FE2044FACD0047A38C /* Extensions.swift */; };
+		6F8447032044FB1F0047A38C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8447012044FB1F0047A38C /* RootViewController.swift */; };
+		6F8447042044FB1F0047A38C /* MapboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8447022044FB1F0047A38C /* MapboxViewController.swift */; };
+		6F9EB75620734CB500ED7A1D /* ARNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB75520734CB500ED7A1D /* ARNavigationViewController.swift */; };
+		6F9EB75D20734E6100ED7A1D /* MapboxARAnnotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB75B20734E6100ED7A1D /* MapboxARAnnotationManager.swift */; };
+		6F9EB75E20734E6100ED7A1D /* MapboxARAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB75C20734E6100ED7A1D /* MapboxARAnchor.swift */; };
+		6F9EB76920735BF000ED7A1D /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76220734F1000ED7A1D /* Turf.framework */; };
+		6F9EB76B20735BFE00ED7A1D /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76A20735BFE00ED7A1D /* Polyline.framework */; };
+		6F9EB76C20735C0800ED7A1D /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76520735B6000ED7A1D /* MapboxDirections.framework */; };
+		6F9EB76D20735C5B00ED7A1D /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76A20735BFE00ED7A1D /* Polyline.framework */; };
+		6F9EB76E20735C5B00ED7A1D /* Polyline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76A20735BFE00ED7A1D /* Polyline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F9EB76F20735C7D00ED7A1D /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76520735B6000ED7A1D /* MapboxDirections.framework */; };
+		6F9EB77020735C7D00ED7A1D /* MapboxDirections.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76520735B6000ED7A1D /* MapboxDirections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F9EB77320735C9B00ED7A1D /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76220734F1000ED7A1D /* Turf.framework */; };
+		6F9EB77420735C9B00ED7A1D /* Turf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76220734F1000ED7A1D /* Turf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F9EB7BD20736FB900ED7A1D /* shift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB7B120736FB900ED7A1D /* shift.a */; };
+		6F9EB7BE20736FB900ED7A1D /* MBCNGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7B320736FB900ED7A1D /* MBCNGeometry.m */; };
+		6F9EB7BF20736FB900ED7A1D /* MBXChinaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7B420736FB900ED7A1D /* MBXChinaPlugin.m */; };
+		6F9EB7C020736FB900ED7A1D /* MBCNGCJCoordinateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7B520736FB900ED7A1D /* MBCNGCJCoordinateTransformer.m */; };
+		6F9EB7C120736FB900ED7A1D /* MGLStyle+MBCNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7B820736FB900ED7A1D /* MGLStyle+MBCNAdditions.m */; };
+		6F9EB7C220736FB900ED7A1D /* NSValue+MBCNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7BA20736FB900ED7A1D /* NSValue+MBCNAdditions.m */; };
+		6F9EB7C320736FB900ED7A1D /* CLLocation+MBCHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7BB20736FB900ED7A1D /* CLLocation+MBCHAdditions.m */; };
+		6FB775102069E4B000AD3481 /* positions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7750F2069E4B000AD3481 /* positions.json */; };
+		6FD030E12079AF40004FD30D /* MBDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD030E02079AF40004FD30D /* MBDBaseViewController.swift */; };
+		6FD030EB2079CD01004FD30D /* MBDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD030EA2079CD01004FD30D /* MBDBaseViewController.m */; };
+		6FDD36712064AF0600BDA36E /* ChinaLayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD36702064AF0600BDA36E /* ChinaLayersViewController.swift */; };
+		F3ED67B261BCBCFA49AF849B /* Pods_MapboxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA9FEABD8223A0324EFC188 /* Pods_MapboxDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +60,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				6F9EB77020735C7D00ED7A1D /* MapboxDirections.framework in Embed Frameworks */,
+				6F9EB76E20735C5B00ED7A1D /* Polyline.framework in Embed Frameworks */,
+				6F13EA62203ED4E0007A257D /* Mapbox.framework in Embed Frameworks */,
+				6F9EB77420735C9B00ED7A1D /* Turf.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,18 +72,61 @@
 
 /* Begin PBXFileReference section */
 		0A206D06202303F5001E0867 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		0A206D0820231142001E0867 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = Carthage/Build/iOS/Mapbox.framework; sourceTree = "<group>"; };
 		0A2AAF992011DF0500E5243F /* MapboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2AAF9C2011DF0500E5243F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A2AAF9E2011DF0500E5243F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A2AAFA12011DF0500E5243F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A2AAFA32011DF0500E5243F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2AAFA62011DF0500E5243F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A2AAFA82011DF0500E5243F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5DE2C32013813C00FF44BB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		0A5DE2C5201381D800FF44BB /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
-		0A5DE2C72013838500FF44BB /* CarAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnnotationView.swift; sourceTree = "<group>"; };
 		0A5DE2C9201383BC00FF44BB /* CarPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPointAnnotation.swift; sourceTree = "<group>"; };
+		2403B21723E27489B49CE505 /* Pods-MapboxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapboxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapboxDemo/Pods-MapboxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6F039E7A2050E1D100E582FF /* libmbgl-core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmbgl-core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F039E7C2050E1E700E582FF /* libmbgl-filesource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmbgl-filesource.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F134129206CDF6F00DEF564 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
+		6F2AA93420465C8100A194F6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6F2AA93520465C8100A194F6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6F2AA969204680DD00A194F6 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		6F584F11205A3D5200000A64 /* pisavector.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = pisavector.xcassets; path = "../../../Downloads/pisa-annotation/pisavector.xcassets"; sourceTree = "<group>"; };
+		6F7F1FEB2062421E0028A524 /* AnnotaionPerformanceTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotaionPerformanceTestViewController.swift; sourceTree = "<group>"; };
+		6F8446F62044FA5C0047A38C /* CustomAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		6F8446F72044FA5C0047A38C /* CarAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAnnotationView.swift; sourceTree = "<group>"; };
+		6F8446FB2044FA930047A38C /* CarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		6F8446FE2044FACD0047A38C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6F8447012044FB1F0047A38C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6F8447022044FB1F0047A38C /* MapboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxViewController.swift; sourceTree = "<group>"; };
+		6F9A489F202FEE62005B5EF9 /* Mapbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mapbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9EB75520734CB500ED7A1D /* ARNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARNavigationViewController.swift; sourceTree = "<group>"; };
+		6F9EB75B20734E6100ED7A1D /* MapboxARAnnotationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxARAnnotationManager.swift; sourceTree = "<group>"; };
+		6F9EB75C20734E6100ED7A1D /* MapboxARAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxARAnchor.swift; sourceTree = "<group>"; };
+		6F9EB76220734F1000ED7A1D /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9EB76520735B6000ED7A1D /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MapboxDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9EB76A20735BFE00ED7A1D /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9EB77520735E8700ED7A1D /* Turf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Turf.framework; path = "../../Library/Developer/Xcode/DerivedData/MapboxDemo-cdypyfkgefqlhpctjxxaagttylvm/Build/Products/Debug-iphoneos/Turf.framework"; sourceTree = "<group>"; };
+		6F9EB77620735E8A00ED7A1D /* MapboxDirections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxDirections.framework; path = "../../Library/Developer/Xcode/DerivedData/MapboxDemo-cdypyfkgefqlhpctjxxaagttylvm/Build/Products/Debug-iphoneos/MapboxDirections.framework"; sourceTree = "<group>"; };
+		6F9EB77720735ED200ED7A1D /* Turf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Turf.framework; path = "../../Library/Developer/Xcode/DerivedData/MapboxDemo-cdypyfkgefqlhpctjxxaagttylvm/Build/Products/Debug-iphoneos/Turf.framework"; sourceTree = "<group>"; };
+		6F9EB77820735ED600ED7A1D /* MapboxDirections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxDirections.framework; path = "../../Library/Developer/Xcode/DerivedData/MapboxDemo-cdypyfkgefqlhpctjxxaagttylvm/Build/Products/Debug-iphoneos/MapboxDirections.framework"; sourceTree = "<group>"; };
+		6F9EB7AE20736FB900ED7A1D /* MBCNGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNGeometry.h; sourceTree = "<group>"; };
+		6F9EB7AF20736FB900ED7A1D /* MBXChinaPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXChinaPlugin.h; sourceTree = "<group>"; };
+		6F9EB7B020736FB900ED7A1D /* MBCNGCJCoordinateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNGCJCoordinateTransformer.h; sourceTree = "<group>"; };
+		6F9EB7B120736FB900ED7A1D /* shift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = shift.a; sourceTree = "<group>"; };
+		6F9EB7B220736FB900ED7A1D /* shift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shift.h; sourceTree = "<group>"; };
+		6F9EB7B320736FB900ED7A1D /* MBCNGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNGeometry.m; sourceTree = "<group>"; };
+		6F9EB7B420736FB900ED7A1D /* MBXChinaPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXChinaPlugin.m; sourceTree = "<group>"; };
+		6F9EB7B520736FB900ED7A1D /* MBCNGCJCoordinateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNGCJCoordinateTransformer.m; sourceTree = "<group>"; };
+		6F9EB7B720736FB900ED7A1D /* NSValue+MBCNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+MBCNAdditions.h"; sourceTree = "<group>"; };
+		6F9EB7B820736FB900ED7A1D /* MGLStyle+MBCNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MGLStyle+MBCNAdditions.m"; sourceTree = "<group>"; };
+		6F9EB7B920736FB900ED7A1D /* MGLStyle+MBCNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MGLStyle+MBCNAdditions.h"; sourceTree = "<group>"; };
+		6F9EB7BA20736FB900ED7A1D /* NSValue+MBCNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+MBCNAdditions.m"; sourceTree = "<group>"; };
+		6F9EB7BB20736FB900ED7A1D /* CLLocation+MBCHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+MBCHAdditions.m"; sourceTree = "<group>"; };
+		6F9EB7BC20736FB900ED7A1D /* CLLocation+MBCNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+MBCNAdditions.h"; sourceTree = "<group>"; };
+		6FB7750F2069E4B000AD3481 /* positions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = positions.json; sourceTree = "<group>"; };
+		6FD030E02079AF40004FD30D /* MBDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDBaseViewController.swift; sourceTree = "<group>"; };
+		6FD030E22079B193004FD30D /* MapboxDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MapboxDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6FD030E92079CD01004FD30D /* MBDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDBaseViewController.h; sourceTree = "<group>"; };
+		6FD030EA2079CD01004FD30D /* MBDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBDBaseViewController.m; sourceTree = "<group>"; };
+		6FDD36702064AF0600BDA36E /* ChinaLayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaLayersViewController.swift; sourceTree = "<group>"; };
+		BFA9FEABD8223A0324EFC188 /* Pods_MapboxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45FB10224BD934EF25C473F /* Pods-MapboxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapboxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapboxDemo/Pods-MapboxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +134,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A206D0920231143001E0867 /* Mapbox.framework in Frameworks */,
+				6F9EB76F20735C7D00ED7A1D /* MapboxDirections.framework in Frameworks */,
+				6F9EB76C20735C0800ED7A1D /* MapboxDirections.framework in Frameworks */,
+				6F9EB76B20735BFE00ED7A1D /* Polyline.framework in Frameworks */,
+				6F9EB76D20735C5B00ED7A1D /* Polyline.framework in Frameworks */,
+				6F9EB76920735BF000ED7A1D /* Turf.framework in Frameworks */,
+				6F039E7B2050E1E700E582FF /* libmbgl-filesource.a in Frameworks */,
+				6F039E792050E1D100E582FF /* libmbgl-core.a in Frameworks */,
+				F3ED67B261BCBCFA49AF849B /* Pods_MapboxDemo.framework in Frameworks */,
+				6F9EB7BD20736FB900ED7A1D /* shift.a in Frameworks */,
+				6F9EB77320735C9B00ED7A1D /* Turf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,10 +153,14 @@
 		0A2AAF902011DF0500E5243F = {
 			isa = PBXGroup;
 			children = (
+				6F9EB76520735B6000ED7A1D /* MapboxDirections.framework */,
+				6F9EB76220734F1000ED7A1D /* Turf.framework */,
 				0A206D06202303F5001E0867 /* Cartfile */,
+				6F9EB7AD20736FB900ED7A1D /* China */,
 				0A2AAF9B2011DF0500E5243F /* MapboxDemo */,
 				0A2AAF9A2011DF0500E5243F /* Products */,
 				0A2AAFB82011E07600E5243F /* Frameworks */,
+				92CF40EB7477B23C61B42D7A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,16 +175,18 @@
 		0A2AAF9B2011DF0500E5243F /* MapboxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6FD030E22079B193004FD30D /* MapboxDemo-Bridging-Header.h */,
+				6F9EB75A20734E6100ED7A1D /* Mapbox ARKit Geo Utils */,
+				6F8447052044FB410047A38C /* Xibs */,
+				6F8447002044FB1F0047A38C /* Controllers */,
+				6F8446FD2044FACD0047A38C /* Common */,
+				6F8446FA2044FA930047A38C /* Models */,
+				6F8446F52044FA5C0047A38C /* Views */,
 				0A2AAF9C2011DF0500E5243F /* AppDelegate.swift */,
-				0A2AAF9E2011DF0500E5243F /* ViewController.swift */,
-				0A2AAFA02011DF0500E5243F /* Main.storyboard */,
+				6F584F11205A3D5200000A64 /* pisavector.xcassets */,
 				0A2AAFA32011DF0500E5243F /* Assets.xcassets */,
-				0A2AAFA52011DF0500E5243F /* LaunchScreen.storyboard */,
 				0A2AAFA82011DF0500E5243F /* Info.plist */,
-				0A5DE2C32013813C00FF44BB /* Extensions.swift */,
-				0A5DE2C5201381D800FF44BB /* CarModel.swift */,
-				0A5DE2C72013838500FF44BB /* CarAnnotationView.swift */,
-				0A5DE2C9201383BC00FF44BB /* CarPointAnnotation.swift */,
+				6FB7750F2069E4B000AD3481 /* positions.json */,
 			);
 			path = MapboxDemo;
 			sourceTree = "<group>";
@@ -99,9 +194,135 @@
 		0A2AAFB82011E07600E5243F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A206D0820231142001E0867 /* Mapbox.framework */,
+				6F9EB77820735ED600ED7A1D /* MapboxDirections.framework */,
+				6F9EB77720735ED200ED7A1D /* Turf.framework */,
+				6F9EB77620735E8A00ED7A1D /* MapboxDirections.framework */,
+				6F9EB77520735E8700ED7A1D /* Turf.framework */,
+				6F9EB76A20735BFE00ED7A1D /* Polyline.framework */,
+				6F039E7C2050E1E700E582FF /* libmbgl-filesource.a */,
+				6F039E7A2050E1D100E582FF /* libmbgl-core.a */,
+				6F9A489F202FEE62005B5EF9 /* Mapbox.framework */,
+				BFA9FEABD8223A0324EFC188 /* Pods_MapboxDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F8446F52044FA5C0047A38C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F8446F62044FA5C0047A38C /* CustomAnnotationView.swift */,
+				6F8446F72044FA5C0047A38C /* CarAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F8446FA2044FA930047A38C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A5DE2C9201383BC00FF44BB /* CarPointAnnotation.swift */,
+				6F8446FB2044FA930047A38C /* CarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F8446FD2044FACD0047A38C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6F8446FE2044FACD0047A38C /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6F8447002044FB1F0047A38C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F8447012044FB1F0047A38C /* RootViewController.swift */,
+				6FD030ED2079CD21004FD30D /* OC */,
+				6FD030EC2079CD1A004FD30D /* Swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F8447052044FB410047A38C /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				0A2AAFA02011DF0500E5243F /* Main.storyboard */,
+				0A2AAFA52011DF0500E5243F /* LaunchScreen.storyboard */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		6F9EB75A20734E6100ED7A1D /* Mapbox ARKit Geo Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F9EB75B20734E6100ED7A1D /* MapboxARAnnotationManager.swift */,
+				6F9EB75C20734E6100ED7A1D /* MapboxARAnchor.swift */,
+			);
+			path = "Mapbox ARKit Geo Utils";
+			sourceTree = "<group>";
+		};
+		6F9EB7AD20736FB900ED7A1D /* China */ = {
+			isa = PBXGroup;
+			children = (
+				6F9EB7AE20736FB900ED7A1D /* MBCNGeometry.h */,
+				6F9EB7AF20736FB900ED7A1D /* MBXChinaPlugin.h */,
+				6F9EB7B020736FB900ED7A1D /* MBCNGCJCoordinateTransformer.h */,
+				6F9EB7B120736FB900ED7A1D /* shift.a */,
+				6F9EB7B220736FB900ED7A1D /* shift.h */,
+				6F9EB7B320736FB900ED7A1D /* MBCNGeometry.m */,
+				6F9EB7B420736FB900ED7A1D /* MBXChinaPlugin.m */,
+				6F9EB7B520736FB900ED7A1D /* MBCNGCJCoordinateTransformer.m */,
+				6F9EB7B620736FB900ED7A1D /* Categories */,
+			);
+			name = China;
+			path = "../mapbox-plugin-ios-china/ChinaPlugin/China";
+			sourceTree = "<group>";
+		};
+		6F9EB7B620736FB900ED7A1D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6F9EB7B720736FB900ED7A1D /* NSValue+MBCNAdditions.h */,
+				6F9EB7B820736FB900ED7A1D /* MGLStyle+MBCNAdditions.m */,
+				6F9EB7B920736FB900ED7A1D /* MGLStyle+MBCNAdditions.h */,
+				6F9EB7BA20736FB900ED7A1D /* NSValue+MBCNAdditions.m */,
+				6F9EB7BB20736FB900ED7A1D /* CLLocation+MBCHAdditions.m */,
+				6F9EB7BC20736FB900ED7A1D /* CLLocation+MBCNAdditions.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6FD030EC2079CD1A004FD30D /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6F2AA969204680DD00A194F6 /* MapKitViewController.swift */,
+				6F7F1FEB2062421E0028A524 /* AnnotaionPerformanceTestViewController.swift */,
+				6FDD36702064AF0600BDA36E /* ChinaLayersViewController.swift */,
+				6F9EB75520734CB500ED7A1D /* ARNavigationViewController.swift */,
+				6FD030E02079AF40004FD30D /* MBDBaseViewController.swift */,
+				6F134129206CDF6F00DEF564 /* LogsViewController.swift */,
+				6F8447022044FB1F0047A38C /* MapboxViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		6FD030ED2079CD21004FD30D /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				6F2AA93420465C8100A194F6 /* TestViewController.h */,
+				6F2AA93520465C8100A194F6 /* TestViewController.m */,
+				6FD030E92079CD01004FD30D /* MBDBaseViewController.h */,
+				6FD030EA2079CD01004FD30D /* MBDBaseViewController.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		92CF40EB7477B23C61B42D7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D45FB10224BD934EF25C473F /* Pods-MapboxDemo.debug.xcconfig */,
+				2403B21723E27489B49CE505 /* Pods-MapboxDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,11 +332,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2AAFAB2011DF0500E5243F /* Build configuration list for PBXNativeTarget "MapboxDemo" */;
 			buildPhases = (
+				F6EBE584A502E4D29BF52C28 /* [CP] Check Pods Manifest.lock */,
 				0A2AAF952011DF0500E5243F /* Sources */,
 				0A2AAF962011DF0500E5243F /* Frameworks */,
 				0A2AAF972011DF0500E5243F /* Resources */,
 				0A2AAFBE2011E17600E5243F /* Embed Frameworks */,
-				0A2AAFBA2011E09600E5243F /* ShellScript */,
+				0A2AAFBA2011E09600E5243F /* Run Script */,
+				564A7B76ED83020573786B34 /* [CP] Embed Pods Frameworks */,
+				20B0D47C0CCEA1EA82CE2E9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,7 +362,13 @@
 				TargetAttributes = {
 					0A2AAF982011DF0500E5243F = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -166,6 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A206D07202303F5001E0867 /* Cartfile in Resources */,
+				6F584F12205A3D5200000A64 /* pisavector.xcassets in Resources */,
+				6FB775102069E4B000AD3481 /* positions.json in Resources */,
 				0A2AAFA72011DF0500E5243F /* LaunchScreen.storyboard in Resources */,
 				0A2AAFA42011DF0500E5243F /* Assets.xcassets in Resources */,
 				0A2AAFA22011DF0500E5243F /* Main.storyboard in Resources */,
@@ -175,19 +407,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A2AAFBA2011E09600E5243F /* ShellScript */ = {
+		0A2AAFBA2011E09600E5243F /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Mapbox.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Polyline.framework",
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "#/usr/local/bin/carthage copy-frameworks";
+		};
+		20B0D47C0CCEA1EA82CE2E9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapboxDemo/Pods-MapboxDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		564A7B76ED83020573786B34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapboxDemo/Pods-MapboxDemo-frameworks.sh",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapboxDemo/Pods-MapboxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EBE584A502E4D29BF52C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapboxDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -196,11 +478,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8446FC2044FA930047A38C /* CarModel.swift in Sources */,
+				6F8446FF2044FACD0047A38C /* Extensions.swift in Sources */,
 				0A5DE2CA201383BC00FF44BB /* CarPointAnnotation.swift in Sources */,
-				0A5DE2C6201381D800FF44BB /* CarModel.swift in Sources */,
-				0A5DE2C82013838500FF44BB /* CarAnnotationView.swift in Sources */,
-				0A2AAF9F2011DF0500E5243F /* ViewController.swift in Sources */,
-				0A5DE2C42013813C00FF44BB /* Extensions.swift in Sources */,
+				6F8447042044FB1F0047A38C /* MapboxViewController.swift in Sources */,
+				6F13412A206CDF6F00DEF564 /* LogsViewController.swift in Sources */,
+				6F7F1FEC2062421E0028A524 /* AnnotaionPerformanceTestViewController.swift in Sources */,
+				6FDD36712064AF0600BDA36E /* ChinaLayersViewController.swift in Sources */,
+				6FD030EB2079CD01004FD30D /* MBDBaseViewController.m in Sources */,
+				6F9EB75D20734E6100ED7A1D /* MapboxARAnnotationManager.swift in Sources */,
+				6F8446F82044FA5C0047A38C /* CustomAnnotationView.swift in Sources */,
+				6FD030E12079AF40004FD30D /* MBDBaseViewController.swift in Sources */,
+				6F8447032044FB1F0047A38C /* RootViewController.swift in Sources */,
+				6F9EB75620734CB500ED7A1D /* ARNavigationViewController.swift in Sources */,
+				6F9EB7C220736FB900ED7A1D /* NSValue+MBCNAdditions.m in Sources */,
+				6F2AA96A204680DD00A194F6 /* MapKitViewController.swift in Sources */,
+				6F9EB7C020736FB900ED7A1D /* MBCNGCJCoordinateTransformer.m in Sources */,
+				6F9EB75E20734E6100ED7A1D /* MapboxARAnchor.swift in Sources */,
+				6F9EB7C120736FB900ED7A1D /* MGLStyle+MBCNAdditions.m in Sources */,
+				6F9EB7BE20736FB900ED7A1D /* MBCNGeometry.m in Sources */,
+				6F9EB7BF20736FB900ED7A1D /* MBXChinaPlugin.m in Sources */,
+				6F2AA93620465C8100A194F6 /* TestViewController.m in Sources */,
+				6F9EB7C320736FB900ED7A1D /* CLLocation+MBCHAdditions.m in Sources */,
+				6F8446F92044FA5C0047A38C /* CarAnnotationView.swift in Sources */,
 				0A2AAF9D2011DF0500E5243F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +530,7 @@
 		0A2AAFA92011DF0500E5243F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -259,6 +560,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -281,12 +583,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		0A2AAFAA2011DF0500E5243F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -316,6 +620,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -330,15 +635,19 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		0A2AAFAC2011DF0500E5243F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45FB10224BD934EF25C473F /* Pods-MapboxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 78MKE32NHU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -346,9 +655,18 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = MapboxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapboxDemo/ChinaPlugin/China",
+					"$(PROJECT_DIR)/MapboxDemo/China",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lloydsheng.MapboxDemo;
+				PRODUCT_MODULE_NAME = MapboxDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapboxDemo/MapboxDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -356,9 +674,12 @@
 		};
 		0A2AAFAD2011DF0500E5243F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2403B21723E27489B49CE505 /* Pods-MapboxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 78MKE32NHU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,9 +687,17 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = MapboxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapboxDemo/ChinaPlugin/China",
+					"$(PROJECT_DIR)/MapboxDemo/China",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lloydsheng.MapboxDemo;
+				PRODUCT_MODULE_NAME = MapboxDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapboxDemo/MapboxDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

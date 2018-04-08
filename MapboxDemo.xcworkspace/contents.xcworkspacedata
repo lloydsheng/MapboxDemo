@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../MapboxDirections.swift/MapboxDirections.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../mapbox-navigation-ios/MapboxNavigation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../mapbox-gl-native/build/ios/mbgl.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../mapbox-gl-native/platform/ios/ios.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MapboxDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Polyline/Polyline.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../turf-swift/Turf.xcodeproj">
+   </FileRef>
+</Workspace>

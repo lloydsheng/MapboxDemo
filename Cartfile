@@ -1,2 +1,4 @@
 
-binary "https://www.mapbox.com/ios-sdk/Mapbox-iOS-SDK.json" ~> 3.7
+#binary "https://www.mapbox.com/ios-sdk/Mapbox-iOS-SDK.json" ~> 3.7
+#github "raphaelmor/Polyline" ~> 4.2
+#github "mapbox/mapbox-navigation-ios" ~> 0.14
