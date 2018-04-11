@@ -219,7 +219,7 @@ class ARNavigationViewController: MBDBaseViewController {
     private func configureMapboxMapView() {
         mapView.delegate = self
         //        mapView.styleURL = URL(string: "mapbox://styles/mapbox/cj3kbeqzo00022smj7akz3o1e") // "Moonlight" style
-        mapView.styleURL = URL(string: "mapbox://styles/mapbox/streets-zh-v1")
+        mapView.styleURL = Configuration.streetStyleURL()
 //        mapView.styleURL = MGLStyle.darkStyleURL()
 
         mapView.userTrackingMode = .followWithHeading

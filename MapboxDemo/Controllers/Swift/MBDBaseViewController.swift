@@ -11,5 +11,14 @@ import Foundation
 
 
 @objc public class MBDBaseViewController: UIViewController {
-    
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .white
+        self.title = "Map"
+
+        if let splitViewController =  self.splitViewController {
+            self.navigationItem.leftItemsSupplementBackButton = true
+            self.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        }
+    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mch-b5-0jp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OUG-rC-pNb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,12 +24,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9w-4R-ZFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1386" y="175"/>
+            <point key="canvasLocation" x="-999" y="-391"/>
         </scene>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapboxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RootViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LGt-W9-Yhe"/>
                         <viewControllerLayoutGuide type="bottom" id="fvm-RW-j7b"/>
@@ -43,12 +43,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="724" y="47"/>
+            <point key="canvasLocation" x="786" y="-401"/>
         </scene>
         <!--Navigation View Controller-->
         <scene sceneID="kSZ-ie-pIw">
             <objects>
-                <viewController storyboardIdentifier="ARNavigationViewController" id="7w8-6J-RDK" customClass="ARNavigationViewController" customModule="MapboxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ARNavigationViewController" id="7w8-6J-RDK" customClass="ARNavigationViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v2d-aZ-Rki"/>
                         <viewControllerLayoutGuide type="bottom" id="HZ0-AH-cBM"/>
@@ -136,10 +136,121 @@
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+            <point key="canvasLocation" x="-134" y="-528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4vY-M3-Po7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BGA-9b-oNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="0uU-jP-h2T" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bWA-x9-TB5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="059-mO-mLE" kind="relationship" relationship="rootViewController" id="n9Q-W8-rAe"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-508" y="273"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s5f-Rp-hs9">
+            <objects>
+                <viewController id="059-mO-mLE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YEU-de-c70"/>
+                        <viewControllerLayoutGuide type="bottom" id="VIO-JZ-Dmb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iQg-tx-HSH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6c-vn-l1G">
+                                <rect key="frame" x="40" y="213" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W1u-rh-hiz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8BG-JU-7cZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="272"/>
+        </scene>
+        <!--Mapbox Demo-->
+        <scene sceneID="itv-Fl-xcG">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="blb-BM-ys3" customClass="MasterViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="g4t-Ps-K5A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="QmM-9y-frF" style="IBUITableViewCellStyleDefault" id="rg3-Sn-IgJ">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rg3-Sn-IgJ" id="mPv-VC-qNd">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QmM-9y-frF">
+                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="blb-BM-ys3" id="MyH-fI-EhJ"/>
+                            <outlet property="delegate" destination="blb-BM-ys3" id="PoS-Dg-hfF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Mapbox Demo" id="Tjq-zF-VJy"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4Y-R9-wof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="958"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YJE-eX-cLn">
+            <objects>
+                <navigationController id="7lP-9P-DjJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qIk-lX-rc6">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="blb-BM-ys3" kind="relationship" relationship="rootViewController" id="AC5-uw-a8d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDA-AY-w1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-346" y="958"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="oF6-2f-Mye">
+            <objects>
+                <splitViewController id="OUG-rC-pNb" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="7lP-9P-DjJ" kind="relationship" relationship="masterViewController" id="Y8n-7q-sCL"/>
+                        <segue destination="0uU-jP-h2T" kind="relationship" relationship="detailViewController" id="UXx-Gw-cJu"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDz-7y-V2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1305" y="624"/>
         </scene>
     </scenes>
     <resources>
-        <image name="crosshairs" width="16" height="16"/>
+        <image name="crosshairs" width="640" height="638"/>
     </resources>
 </document>

@@ -15,6 +15,10 @@
 		0A5DE2CA201383BC00FF44BB /* CarPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DE2C9201383BC00FF44BB /* CarPointAnnotation.swift */; };
 		6F039E792050E1D100E582FF /* libmbgl-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F039E7A2050E1D100E582FF /* libmbgl-core.a */; };
 		6F039E7B2050E1E700E582FF /* libmbgl-filesource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F039E7C2050E1E700E582FF /* libmbgl-filesource.a */; };
+		6F0C021F207B116B00D10F7C /* Buildings3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C021E207B116B00D10F7C /* Buildings3DViewController.swift */; };
+		6F0C0221207B123700D10F7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C0220207B123700D10F7C /* Constants.swift */; };
+		6F0C0223207B1CEE00D10F7C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C0222207B1CEE00D10F7C /* Configuration.swift */; };
+		6F0C022A207B314F00D10F7C /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0C0224207B288B00D10F7C /* ARKit.framework */; };
 		6F13412A206CDF6F00DEF564 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F134129206CDF6F00DEF564 /* LogsViewController.swift */; };
 		6F13EA62203ED4E0007A257D /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A489F202FEE62005B5EF9 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6F2AA93620465C8100A194F6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AA93520465C8100A194F6 /* TestViewController.m */; };
@@ -31,7 +35,6 @@
 		6F9EB75D20734E6100ED7A1D /* MapboxARAnnotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB75B20734E6100ED7A1D /* MapboxARAnnotationManager.swift */; };
 		6F9EB75E20734E6100ED7A1D /* MapboxARAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB75C20734E6100ED7A1D /* MapboxARAnchor.swift */; };
 		6F9EB76920735BF000ED7A1D /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76220734F1000ED7A1D /* Turf.framework */; };
-		6F9EB76B20735BFE00ED7A1D /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76A20735BFE00ED7A1D /* Polyline.framework */; };
 		6F9EB76C20735C0800ED7A1D /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76520735B6000ED7A1D /* MapboxDirections.framework */; };
 		6F9EB76D20735C5B00ED7A1D /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76A20735BFE00ED7A1D /* Polyline.framework */; };
 		6F9EB76E20735C5B00ED7A1D /* Polyline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9EB76A20735BFE00ED7A1D /* Polyline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -46,6 +49,26 @@
 		6F9EB7C120736FB900ED7A1D /* MGLStyle+MBCNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7B820736FB900ED7A1D /* MGLStyle+MBCNAdditions.m */; };
 		6F9EB7C220736FB900ED7A1D /* NSValue+MBCNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7BA20736FB900ED7A1D /* NSValue+MBCNAdditions.m */; };
 		6F9EB7C320736FB900ED7A1D /* CLLocation+MBCHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9EB7BB20736FB900ED7A1D /* CLLocation+MBCHAdditions.m */; };
+		6FAC8C12207DE1B600899801 /* CameraAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C11207DE1B600899801 /* CameraAnimationViewController.swift */; };
+		6FAC8C14207DE35100899801 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C13207DE35100899801 /* AnnotationViewController.swift */; };
+		6FAC8C16207DE41000899801 /* CustomAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C15207DE41000899801 /* CustomAnnotationViewController.swift */; };
+		6FAC8C18207DE53400899801 /* ImageAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C17207DE53400899801 /* ImageAnnotationViewController.swift */; };
+		6FAC8C1A207DE57D00899801 /* CustomAnnotationViewViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C19207DE57D00899801 /* CustomAnnotationViewViewcontroller.swift */; };
+		6FAC8C1C207DE65600899801 /* CalloutDelegateUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C1B207DE65600899801 /* CalloutDelegateUsageViewController.swift */; };
+		6FAC8C1E207DE74F00899801 /* CustomCalloutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C1D207DE74F00899801 /* CustomCalloutViewController.swift */; };
+		6FAC8C20207DE9A500899801 /* InteractivePointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C1F207DE9A500899801 /* InteractivePointsViewController.swift */; };
+		6FAC8C22207DEEB200899801 /* CustomUserLocationAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C21207DEEB200899801 /* CustomUserLocationAnnotationViewController.swift */; };
+		6FAC8C24207DEF9B00899801 /* PatternPolygonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C23207DEF9B00899801 /* PatternPolygonViewController.swift */; };
+		6FAC8C26207DF08200899801 /* line.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC8C25207DF08200899801 /* line.geojson */; };
+		6FAC8C28207DF0AC00899801 /* LineAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C27207DF0AC00899801 /* LineAnnotationViewController.swift */; };
+		6FAC8C2A207DF11700899801 /* PolygonAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C29207DF11700899801 /* PolygonAnnotationViewController.swift */; };
+		6FAC8C2C207DF18500899801 /* AnnoitatedLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C2B207DF18500899801 /* AnnoitatedLineViewController.swift */; };
+		6FAC8C2E207DF20600899801 /* AnimateLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C2D207DF20600899801 /* AnimateLinesViewController.swift */; };
+		6FAC8C30207DF29F00899801 /* RestrictPanningAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C2F207DF29F00899801 /* RestrictPanningAreaViewController.swift */; };
+		6FAC8C32207DF32300899801 /* DraggableAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C31207DF32300899801 /* DraggableAnnotationViewController.swift */; };
+		6FAC8C34207DF38800899801 /* PointConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C33207DF38800899801 /* PointConversionViewController.swift */; };
+		6FAC8C36207DF3F700899801 /* ShowHideLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C35207DF3F700899801 /* ShowHideLayerViewController.swift */; };
+		6FAC8C3A207DFFBC00899801 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC8C39207DFFBC00899801 /* MasterViewController.swift */; };
 		6FB775102069E4B000AD3481 /* positions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7750F2069E4B000AD3481 /* positions.json */; };
 		6FD030E12079AF40004FD30D /* MBDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD030E02079AF40004FD30D /* MBDBaseViewController.swift */; };
 		6FD030EB2079CD01004FD30D /* MBDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD030EA2079CD01004FD30D /* MBDBaseViewController.m */; };
@@ -82,6 +105,10 @@
 		2403B21723E27489B49CE505 /* Pods-MapboxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapboxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapboxDemo/Pods-MapboxDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6F039E7A2050E1D100E582FF /* libmbgl-core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmbgl-core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F039E7C2050E1E700E582FF /* libmbgl-filesource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmbgl-filesource.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0C021E207B116B00D10F7C /* Buildings3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buildings3DViewController.swift; sourceTree = "<group>"; };
+		6F0C0220207B123700D10F7C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F0C0222207B1CEE00D10F7C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		6F0C0224207B288B00D10F7C /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		6F134129206CDF6F00DEF564 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
 		6F2AA93420465C8100A194F6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		6F2AA93520465C8100A194F6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
@@ -119,6 +146,26 @@
 		6F9EB7BA20736FB900ED7A1D /* NSValue+MBCNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+MBCNAdditions.m"; sourceTree = "<group>"; };
 		6F9EB7BB20736FB900ED7A1D /* CLLocation+MBCHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+MBCHAdditions.m"; sourceTree = "<group>"; };
 		6F9EB7BC20736FB900ED7A1D /* CLLocation+MBCNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+MBCNAdditions.h"; sourceTree = "<group>"; };
+		6FAC8C11207DE1B600899801 /* CameraAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAnimationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C13207DE35100899801 /* AnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C15207DE41000899801 /* CustomAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C17207DE53400899801 /* ImageAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C19207DE57D00899801 /* CustomAnnotationViewViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationViewViewcontroller.swift; sourceTree = "<group>"; };
+		6FAC8C1B207DE65600899801 /* CalloutDelegateUsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutDelegateUsageViewController.swift; sourceTree = "<group>"; };
+		6FAC8C1D207DE74F00899801 /* CustomCalloutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewController.swift; sourceTree = "<group>"; };
+		6FAC8C1F207DE9A500899801 /* InteractivePointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePointsViewController.swift; sourceTree = "<group>"; };
+		6FAC8C21207DEEB200899801 /* CustomUserLocationAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUserLocationAnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C23207DEF9B00899801 /* PatternPolygonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternPolygonViewController.swift; sourceTree = "<group>"; };
+		6FAC8C25207DF08200899801 /* line.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = line.geojson; path = ../../../Downloads/line.geojson; sourceTree = "<group>"; };
+		6FAC8C27207DF0AC00899801 /* LineAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineAnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C29207DF11700899801 /* PolygonAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonAnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C2B207DF18500899801 /* AnnoitatedLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnoitatedLineViewController.swift; sourceTree = "<group>"; };
+		6FAC8C2D207DF20600899801 /* AnimateLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateLinesViewController.swift; sourceTree = "<group>"; };
+		6FAC8C2F207DF29F00899801 /* RestrictPanningAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictPanningAreaViewController.swift; sourceTree = "<group>"; };
+		6FAC8C31207DF32300899801 /* DraggableAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableAnnotationViewController.swift; sourceTree = "<group>"; };
+		6FAC8C33207DF38800899801 /* PointConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointConversionViewController.swift; sourceTree = "<group>"; };
+		6FAC8C35207DF3F700899801 /* ShowHideLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideLayerViewController.swift; sourceTree = "<group>"; };
+		6FAC8C39207DFFBC00899801 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		6FB7750F2069E4B000AD3481 /* positions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = positions.json; sourceTree = "<group>"; };
 		6FD030E02079AF40004FD30D /* MBDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDBaseViewController.swift; sourceTree = "<group>"; };
 		6FD030E22079B193004FD30D /* MapboxDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MapboxDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -134,12 +181,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0C022A207B314F00D10F7C /* ARKit.framework in Frameworks */,
 				6F9EB76F20735C7D00ED7A1D /* MapboxDirections.framework in Frameworks */,
 				6F9EB76C20735C0800ED7A1D /* MapboxDirections.framework in Frameworks */,
-				6F9EB76B20735BFE00ED7A1D /* Polyline.framework in Frameworks */,
 				6F9EB76D20735C5B00ED7A1D /* Polyline.framework in Frameworks */,
 				6F9EB76920735BF000ED7A1D /* Turf.framework in Frameworks */,
 				6F039E7B2050E1E700E582FF /* libmbgl-filesource.a in Frameworks */,
+				6F9EB76D20735C5B00ED7A1D /* Polyline.framework in Frameworks */,
 				6F039E792050E1D100E582FF /* libmbgl-core.a in Frameworks */,
 				F3ED67B261BCBCFA49AF849B /* Pods_MapboxDemo.framework in Frameworks */,
 				6F9EB7BD20736FB900ED7A1D /* shift.a in Frameworks */,
@@ -175,6 +223,7 @@
 		0A2AAF9B2011DF0500E5243F /* MapboxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6FAC8C25207DF08200899801 /* line.geojson */,
 				6FD030E22079B193004FD30D /* MapboxDemo-Bridging-Header.h */,
 				6F9EB75A20734E6100ED7A1D /* Mapbox ARKit Geo Utils */,
 				6F8447052044FB410047A38C /* Xibs */,
@@ -194,6 +243,7 @@
 		0A2AAFB82011E07600E5243F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F0C0224207B288B00D10F7C /* ARKit.framework */,
 				6F9EB77820735ED600ED7A1D /* MapboxDirections.framework */,
 				6F9EB77720735ED200ED7A1D /* Turf.framework */,
 				6F9EB77620735E8A00ED7A1D /* MapboxDirections.framework */,
@@ -229,6 +279,8 @@
 			isa = PBXGroup;
 			children = (
 				6F8446FE2044FACD0047A38C /* Extensions.swift */,
+				6F0C0220207B123700D10F7C /* Constants.swift */,
+				6F0C0222207B1CEE00D10F7C /* Configuration.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -301,6 +353,26 @@
 				6FD030E02079AF40004FD30D /* MBDBaseViewController.swift */,
 				6F134129206CDF6F00DEF564 /* LogsViewController.swift */,
 				6F8447022044FB1F0047A38C /* MapboxViewController.swift */,
+				6F0C021E207B116B00D10F7C /* Buildings3DViewController.swift */,
+				6FAC8C11207DE1B600899801 /* CameraAnimationViewController.swift */,
+				6FAC8C13207DE35100899801 /* AnnotationViewController.swift */,
+				6FAC8C15207DE41000899801 /* CustomAnnotationViewController.swift */,
+				6FAC8C17207DE53400899801 /* ImageAnnotationViewController.swift */,
+				6FAC8C19207DE57D00899801 /* CustomAnnotationViewViewcontroller.swift */,
+				6FAC8C1B207DE65600899801 /* CalloutDelegateUsageViewController.swift */,
+				6FAC8C1D207DE74F00899801 /* CustomCalloutViewController.swift */,
+				6FAC8C1F207DE9A500899801 /* InteractivePointsViewController.swift */,
+				6FAC8C21207DEEB200899801 /* CustomUserLocationAnnotationViewController.swift */,
+				6FAC8C23207DEF9B00899801 /* PatternPolygonViewController.swift */,
+				6FAC8C27207DF0AC00899801 /* LineAnnotationViewController.swift */,
+				6FAC8C29207DF11700899801 /* PolygonAnnotationViewController.swift */,
+				6FAC8C2B207DF18500899801 /* AnnoitatedLineViewController.swift */,
+				6FAC8C2D207DF20600899801 /* AnimateLinesViewController.swift */,
+				6FAC8C2F207DF29F00899801 /* RestrictPanningAreaViewController.swift */,
+				6FAC8C31207DF32300899801 /* DraggableAnnotationViewController.swift */,
+				6FAC8C33207DF38800899801 /* PointConversionViewController.swift */,
+				6FAC8C35207DF3F700899801 /* ShowHideLayerViewController.swift */,
+				6FAC8C39207DFFBC00899801 /* MasterViewController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -399,6 +471,7 @@
 				6F584F12205A3D5200000A64 /* pisavector.xcassets in Resources */,
 				6FB775102069E4B000AD3481 /* positions.json in Resources */,
 				0A2AAFA72011DF0500E5243F /* LaunchScreen.storyboard in Resources */,
+				6FAC8C26207DF08200899801 /* line.geojson in Resources */,
 				0A2AAFA42011DF0500E5243F /* Assets.xcassets in Resources */,
 				0A2AAFA22011DF0500E5243F /* Main.storyboard in Resources */,
 			);
@@ -478,27 +551,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAC8C22207DEEB200899801 /* CustomUserLocationAnnotationViewController.swift in Sources */,
 				6F8446FC2044FA930047A38C /* CarModel.swift in Sources */,
 				6F8446FF2044FACD0047A38C /* Extensions.swift in Sources */,
+				6FAC8C12207DE1B600899801 /* CameraAnimationViewController.swift in Sources */,
 				0A5DE2CA201383BC00FF44BB /* CarPointAnnotation.swift in Sources */,
+				6FAC8C32207DF32300899801 /* DraggableAnnotationViewController.swift in Sources */,
 				6F8447042044FB1F0047A38C /* MapboxViewController.swift in Sources */,
 				6F13412A206CDF6F00DEF564 /* LogsViewController.swift in Sources */,
+				6FAC8C28207DF0AC00899801 /* LineAnnotationViewController.swift in Sources */,
+				6FAC8C2E207DF20600899801 /* AnimateLinesViewController.swift in Sources */,
+				6FAC8C1C207DE65600899801 /* CalloutDelegateUsageViewController.swift in Sources */,
 				6F7F1FEC2062421E0028A524 /* AnnotaionPerformanceTestViewController.swift in Sources */,
 				6FDD36712064AF0600BDA36E /* ChinaLayersViewController.swift in Sources */,
+				6FAC8C24207DEF9B00899801 /* PatternPolygonViewController.swift in Sources */,
+				6FAC8C30207DF29F00899801 /* RestrictPanningAreaViewController.swift in Sources */,
+				6FAC8C2A207DF11700899801 /* PolygonAnnotationViewController.swift in Sources */,
+				6F0C0221207B123700D10F7C /* Constants.swift in Sources */,
+				6FAC8C34207DF38800899801 /* PointConversionViewController.swift in Sources */,
 				6FD030EB2079CD01004FD30D /* MBDBaseViewController.m in Sources */,
 				6F9EB75D20734E6100ED7A1D /* MapboxARAnnotationManager.swift in Sources */,
+				6FAC8C3A207DFFBC00899801 /* MasterViewController.swift in Sources */,
 				6F8446F82044FA5C0047A38C /* CustomAnnotationView.swift in Sources */,
 				6FD030E12079AF40004FD30D /* MBDBaseViewController.swift in Sources */,
+				6FAC8C36207DF3F700899801 /* ShowHideLayerViewController.swift in Sources */,
 				6F8447032044FB1F0047A38C /* RootViewController.swift in Sources */,
 				6F9EB75620734CB500ED7A1D /* ARNavigationViewController.swift in Sources */,
+				6FAC8C14207DE35100899801 /* AnnotationViewController.swift in Sources */,
+				6FAC8C18207DE53400899801 /* ImageAnnotationViewController.swift in Sources */,
 				6F9EB7C220736FB900ED7A1D /* NSValue+MBCNAdditions.m in Sources */,
+				6FAC8C20207DE9A500899801 /* InteractivePointsViewController.swift in Sources */,
+				6F0C021F207B116B00D10F7C /* Buildings3DViewController.swift in Sources */,
+				6FAC8C1A207DE57D00899801 /* CustomAnnotationViewViewcontroller.swift in Sources */,
 				6F2AA96A204680DD00A194F6 /* MapKitViewController.swift in Sources */,
 				6F9EB7C020736FB900ED7A1D /* MBCNGCJCoordinateTransformer.m in Sources */,
 				6F9EB75E20734E6100ED7A1D /* MapboxARAnchor.swift in Sources */,
+				6FAC8C1E207DE74F00899801 /* CustomCalloutViewController.swift in Sources */,
 				6F9EB7C120736FB900ED7A1D /* MGLStyle+MBCNAdditions.m in Sources */,
+				6FAC8C2C207DF18500899801 /* AnnoitatedLineViewController.swift in Sources */,
 				6F9EB7BE20736FB900ED7A1D /* MBCNGeometry.m in Sources */,
+				6F0C0223207B1CEE00D10F7C /* Configuration.swift in Sources */,
 				6F9EB7BF20736FB900ED7A1D /* MBXChinaPlugin.m in Sources */,
 				6F2AA93620465C8100A194F6 /* TestViewController.m in Sources */,
+				6FAC8C16207DE41000899801 /* CustomAnnotationViewController.swift in Sources */,
 				6F9EB7C320736FB900ED7A1D /* CLLocation+MBCHAdditions.m in Sources */,
 				6F8446F92044FA5C0047A38C /* CarAnnotationView.swift in Sources */,
 				0A2AAF9D2011DF0500E5243F /* AppDelegate.swift in Sources */,
@@ -645,9 +740,10 @@
 			baseConfigurationReference = D45FB10224BD934EF25C473F /* Pods-MapboxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 78MKE32NHU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,8 +759,10 @@
 					"$(PROJECT_DIR)/MapboxDemo/China",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lloydsheng.MapboxDemo;
-				PRODUCT_MODULE_NAME = MapboxDemo;
+				PRODUCT_MODULE_NAME = Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MapboxDemo/MapboxDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -677,9 +775,10 @@
 			baseConfigurationReference = 2403B21723E27489B49CE505 /* Pods-MapboxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 78MKE32NHU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -695,8 +794,9 @@
 					"$(PROJECT_DIR)/MapboxDemo/China",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lloydsheng.MapboxDemo;
-				PRODUCT_MODULE_NAME = MapboxDemo;
+				PRODUCT_MODULE_NAME = Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MapboxDemo/MapboxDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

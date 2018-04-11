@@ -16,16 +16,13 @@ class ChinaLayersTestViewController: MBDBaseViewController, MGLMapViewDelegate {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         
-//        let url = URL(string: "mapbox://styles/mapbox/streets-v10")
-        let url = URL(string: "mapbox://styles/mapbox/streets-zh-v1")
         let centerCoordinate = CLLocationCoordinate2D(latitude: 40.0, longitude: 116.4)
-        let mapView = MGLMapView(frame: view.bounds, styleURL: url)
+        let mapView = MGLMapView(frame: view.bounds, styleURL: Configuration.streetStyleURL())
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.setCenter(centerCoordinate, zoomLevel: 12, animated: false)
         self.mapView = mapView;
         self.mapView.delegate = self
         view.addSubview(mapView)
-        
         
         print("=================")
         

@@ -3,25 +3,17 @@ import Mapbox
 //import
 
 // Example view controller
-class LogsViewController: MBDBaseViewController, UITableViewDataSource {
+class LogsViewController: UIViewController, UITableViewDataSource {
     
     var tableView : UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Logs"
         
-        let button = UIButton(type: .custom)
-        button.setTitle("Clean", for: .normal)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 15.0)
-        button.layer.cornerRadius = 5
-        button.backgroundColor = .blue
-        button.frame = CGRect(x: 0, y: 0, width: 100, height: 25)
-        button.addTarget(self, action: #selector(cleanLogs), for: UIControlEvents.touchUpInside)
-        let barButton = UIBarButtonItem(customView: button)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Clean", style: .plain, target: self, action: #selector(self.onRightBarButtonPress(sender:)))
         
-        self.navigationItem.rightBarButtonItem = barButton
-        
-        self.navigationItem.title = "Logs"
+
         self.view.backgroundColor = .white
         let tableView = UITableView()
         self.view.addSubview(tableView)
@@ -31,7 +23,7 @@ class LogsViewController: MBDBaseViewController, UITableViewDataSource {
         self.tableView = tableView
     }
     
-    @objc func cleanLogs(){
+    @objc func onRightBarButtonPress(sender: UIBarButtonItem){
         UserDefaults.standard.removeObject(forKey: "TelemetryTestLogs")
         UserDefaults.standard.synchronize()
         tableView.reloadData()

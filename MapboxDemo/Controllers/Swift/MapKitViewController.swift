@@ -17,8 +17,7 @@ class MapKitViewController: MBDBaseViewController, MKMapViewDelegate, CLLocation
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
+
         let mapView = MKMapView(frame: self.view.bounds)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.view .addSubview(mapView)

@@ -32,10 +32,6 @@
 	<string>https://api.mapbox.cn</string>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1Ijoid2luZ3d1eWYiLCJhIjoiY2lpczhrOTV6MDMxbHVxbTUzaWxjbHVhcCJ9.8-ZeQd_Qz2a1gqlzH-fsHg</string>
-	<key>MGLMapboxAccessToken3</key>
-	<string>pk.eyJ1IjoibWFwYm94IiwiYSI6IjhkYjE2ZmViYjZhMzEwZTEyNmQ0NWYwM2I3YjYyZjM3In0.C3pE8a-uTnoI96AcQBPymA</string>
-	<key>MGLMapboxAccessToken2</key>
-	<string>pk.eyJ1IjoibGxveWRzaGVuZyIsImEiOiJjamNqeXRkNzQzb3c1MzNudHZwejVhMnZmIn0.uyvubJYvj1wLc_Fiw19PXA</string>
 	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
 	<false/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

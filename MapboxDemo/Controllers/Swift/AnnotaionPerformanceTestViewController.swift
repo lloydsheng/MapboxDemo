@@ -29,13 +29,10 @@ class AnnotaionPerformanceTestViewController: MBDBaseViewController, MGLMapViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        
-        let url = URL(string: "mapbox://styles/mapbox/streets-zh-v1")
-        
-        let centerCoordinate = CLLocationCoordinate2D(latitude: 35.7094109, longitude: 139.774723)
-        let mapView = MGLMapView(frame: view.bounds, styleURL: url)
+
+        let mapView = MGLMapView(frame: view.bounds, styleURL: Configuration.streetStyleURL())
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        mapView.setCenter(centerCoordinate, zoomLevel: 14, animated: false)
+        mapView.setCenter(DemoConstants.tokyoCoordinate, zoomLevel: 14, animated: false)
         self.mapView = mapView;
         self.mapView.delegate = self
         view.addSubview(mapView)
@@ -63,9 +60,8 @@ class AnnotaionPerformanceTestViewController: MBDBaseViewController, MGLMapViewD
     
     // MARK: - Event handle
     @objc func timerTick() {
-        let centerCoordinate = CLLocationCoordinate2D(latitude: 35.7094109, longitude: 139.774723)
         let zoomLevel = mapView.zoomLevel == 16.0 ? 14.0 : 16.0
-        mapView.setCenter(centerCoordinate, zoomLevel: zoomLevel, animated: true)
+        mapView.setCenter(DemoConstants.tokyoCoordinate, zoomLevel: zoomLevel, animated: true)
     }
     
     func mapView(_ mapView: MGLMapView, viewFor annotation: MGLAnnotation) -> MGLAnnotationView? {
